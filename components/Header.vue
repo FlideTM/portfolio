@@ -1,11 +1,28 @@
 <template>
 <div id="container">
-    <h1>HEADER</h1>
+    <div class="logo">LOGO</div>
+    <nav>
+        <NuxtLink to="/">Главная</NuxtLink>
+        <NuxtLink to="/ourteam">Наша команда</NuxtLink>
+        <NuxtLink to="/weoffer">Услуги</NuxtLink>
+    </nav>
 </div>
 </template>
 <style scoped>
 #container{
-    width: 100%;
-    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav a{
+    margin-right: 180px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333B46;
+}
+.router-link-exact-active{
+    color: #460273;
 }
 </style>
