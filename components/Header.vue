@@ -16,8 +16,8 @@
     justify-content: space-between;
 }
 nav a{
-    margin-right: 180px;
-    font-size: 22px;
+    margin-right: 7vw;
+    font-size: 2.2vw;
     font-weight: bold;
     text-decoration: none;
     color: #333B46;
