@@ -6,23 +6,23 @@
 <div class="elements">
     <div class="element">
         <span class="icon"><Icon icon="jam:phone-f" /></span>
-        <span class="h1">Этап</span>
-        <span class="h2">Описание</span>
+        <span class="h1">Заказ</span>
+        <span class="h2">Оформляем договор и вносится предоплата</span>
     </div>
     <div class="element">
         <span class="icon"><Icon icon="material-symbols:design-services" /></span>
-        <span class="h1">Этап</span>
-        <span class="h2">Описание</span>
+        <span class="h1">Дизайн</span>
+        <span class="h2">Разрабатываем и согласовываем вместе дизайн вашего проекта</span>
     </div>
     <div class="element">
         <span class="icon"><Icon icon="mdi:cog" /></span>
-        <span class="h1">Этап</span>
-        <span class="h2">Описание</span>
+        <span class="h1">Разработка</span>
+        <span class="h2">Разрабатываем сайт с учетом ваших пожеланий и исправлений</span>
     </div>
     <div class="element">
         <span class="icon"><Icon icon="ph:monitor-fill" /></span>
-        <span class="h1">Этап</span>
-        <span class="h2">Описание</span>
+        <span class="h1">Перенос</span>
+        <span class="h2">Полная оплата, перенос уже выполненного проекта на хостинг заказчика</span>
     </div>
 </div>
 </template>

@@ -1,7 +1,6 @@
 <template>
 <div class="container">
     <Header />
-
     <div class="chapter-introduction">
         <introdution />
     </div>
@@ -17,7 +16,14 @@
     <div class="footer">
         <Footer />
     </div>
+</div>
 
+<div class="mobile">
+    <MobileHeader />
+    <MobileIntrodution />
+    <MobileHowwework />
+    <MobileWhywe />
+    <MobileFooter />
 </div>
 </template>
 <script>
@@ -30,6 +36,17 @@ export default {
 };
 </script>
 <style scoped>
+/* MOBILE */
+@media screen and (max-width: 900px){
+.container{display: none;}
+.mobile{
+    display: flex;
+    flex-direction: column;
+}
+}
+/* WEB */
+@media screen and (min-width: 900px){
+.mobile{display: none;}
 .container{
     width: 100vw;
     height: 100vh;
@@ -58,5 +75,6 @@ export default {
 }
 .footer{
     width: 100%;
+}
 }
 </style>

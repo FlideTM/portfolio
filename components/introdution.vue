@@ -37,7 +37,6 @@ img{
     margin-top: 6%;
     display: flex;
     flex-direction: column;
-
 }
 #text-introdution h1{
     font-size: 3.7vw;
